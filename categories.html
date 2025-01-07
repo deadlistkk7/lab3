@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SneakerZone - Категорії</title>
+    <link rel="stylesheet" href="css/more_style.css">
+</head>
+<body>
+<header>
+    <h1><a href="index.html">SneakerZone</a></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="categories.html">Категорії</a></li>
+            <li><a href="search.html">Пошук</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Категорії товарів</h2>
+    <!-- Список категорій -->
+    <ul class="categories-list">
+        <li><a href="#" data-category="nike">Nike</a></li>
+        <li><a href="#" data-category="adidas">Adidas</a></li>
+        <li><a href="#" data-category="jordan">Jordan</a></li>
+        <li><a href="#" data-category="newbalance">New Balance</a></li>
+    </ul>
+
+    <!-- Результати -->
+    <section id="products">
+        <h2>Товари</h2>
+        <ul id="product-list">
+            <!-- Динамічно додаються товари через JavaScript -->
+        </ul>
+    </section>
+
+    <!-- Деталі товару -->
+    <section id="product-details" style="display:none;">
+        <!-- Контент картки товару буде додаватися через JavaScript -->
+    </section>
+</main>
+<footer>
+    <p>&copy; 2025 SneakerZone. Всі права захищені.</p>
+</footer>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
