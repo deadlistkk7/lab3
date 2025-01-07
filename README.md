@@ -1,2 +1,2 @@
-# lab2
-lab-2 proj
+# lab3
+lab-3 proj
